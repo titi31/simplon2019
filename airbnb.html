@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>airbnb</title>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+		<script
+  			src="https://code.jquery.com/jquery-3.1.1.min.js"
+  			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  			crossorigin="anonymous"></script>
+		<script src="semantic/dist/semantic.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bnb.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+	</head>	
+	<body>
+		<div class="image">
+
+			<div class="ui  menu">
+				
+					
+				
+				<div class="right menu"  >
+					<div id="become" class="ui simple dropdown item">Become a host
+						<div class="menu">
+							<a class="item" >
+								<h2 id="sousMenu">HOMES</h2> 
+								<h3>
+									<a class="home">List your place
+									</a>
+								</h3><br>
+								<p id="euro">Earn up to €1,489 a month hosting <br> in Toulouse.
+								</p><br>
+								<h3><a class="home">Learn about hosting your home
+									</a>
+								</h3>
+							</a>
+						</div>
+					</div>
+						<a id="help" class="item">Help</a>
+						<a id="sign" class="item">Sign up</a>
+						<a id="log" class="item">Log in</a>
+					
+				</div>
+			</div>
+			
+			<br><br><img id="logo" src="692153.png" >
+			
+			<div class="interieur">
+				<h1 id="plan" class='ui header'>Plan your next trip</h1>
+
+				<div class="ui inverted segment">
+			 		<div class="ui inverted secondary pointing menu">
+			 	
+						<a class="active item">Explore
+
+						</a>
+						<a class="active item">Homes</a>
+						<a class="active item">Experiences</a>
+						<a class="active item">Restaurant</a>
+					</div>
+  					<div class="ui inverted left icon input">
+  					
+  						<div class="ui right action left icon 	input">
+  							<i class="search icon"></i>
+    						<input id="searchc" type="text" placeholder="Surfing in Los Angeles">
+    					</div>
+    					<div class="ui left action input"> 
+    						<input id="date" type='date' >
+    					</div>
+    			
+    					<button class="ui icon button">
+   							 <i class="search icon"></i>
+  						</button>
+  					</div>
+  				</div>
+  			</div>
+		</div>
+
+		<h2 id="explore">Explore Airbnb</h2>
+		<div class="titres">
+    		<div class="ui divided items">
+  				<div class="item">
+    				<div class="ui tiny image">
+      					<img id="homes" src="https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg">
+    				</div>
+    				<div class="middle aligned content">
+    					<a><h2 id="titrehomes">Homes</h2></a>
+    				</div>
+    			</div>
+    		</div>
+  			<div id="exp" class="ui divided items">
+  				<div class="item">
+    				<div class="ui tiny image">
+      					<img id="iexp" src="https://a0.muscache.com/im/pictures/cb8b3101-d419-4c17-8e2f-4989b39b98c3.jpg">
+    				</div>
+    				<div class="middle aligned content">
+    					<a><h2 id="titreexp">Experiences</h2></a>
+    				</div>
+  				</div>
+			</div>
+			<div id="resto" class="ui divided items">
+  				<div class="item">
+    				<div class="ui tiny image">
+      					<img id="iresto" src="https://a0.muscache.com/im/pictures/da2d8e97-90b7-409f-94ac-5ab0327c289b.jpg">
+    				</div>
+    				<div class="middle aligned content">
+    					<a><h2 id="titreresto">Restaurants</h2>
+    					</a>
+    				</div>
+  				</div>
+			</div>
+
+		</div>
+			<div class="ui segment">
+				
+			<img class="ui centered massive image"  src="maison.jpg">
+			<div id="bo" class="ui buttons">
+				 <button id="be" class="ui right labeled icon button">EXPLORE HOMES <i class="right chevron icon"></i> </button>
+			</div>
+		</div>
+		<h2 id="recomandation">Recommended for you</h2>
+		<div class="ui medium images">
+			
+			<div class="ui fluid image">
+				
+				<img class="images" 
+  			  src="paris.jpg">
+  			<div class="lien"><h3 id="titrelien">Paris</h3><p id="textparis">€90/night average</p></div>
+			</div>
+
+			<div class="ui fluid image">
+				
+				<img  class="images" 
+  			  src="https://a0.muscache.com/im/pictures/60145c65-7c36-4ac5-8129-6ae9a0d27a81.jpg" style="display: block; margin-left: -70px;">
+  			<div class="lien"><h3 id="tokyo">Tokyo</h3><p id="textetokyo">€72/night average</p></div>
+			</div>
+
+			<div class="ui fluid image">
+				
+				<img  class="images" 
+  			  src="https://a0.muscache.com/im/pictures/6729455e-af21-4dc3-bfdf-332393d407a8.jpg" style="display: block;margin-left: -140px;">
+  			<div class="lien"><h3 id="london">London</h3><p id="textelondon">€96/night average</p></div>
+			</div>
+
+			<div class="ui fluid image">
+				
+				<img  class="images" 
+  			  src="https://a0.muscache.com/im/pictures/82af5bc4-ed5b-44d9-9209-ac0f2fbf8986.jpg" style="display: block;margin-left: -210px;">
+  			<div class="lien"><h3 id="los">Los Angeles</h3><p id="textelos">€105/night average</p></div>
+			</div>
+
+			<div class="ui fluid image">
+				
+				<img  class="images" 
+  			  src="https://a0.muscache.com/im/pictures/6db93b37-3d4b-49c0-af00-c184a9dd6305.jpg" style="display: block;margin-top:-290px;margin-left: 950px;">
+  			<div class="lien"><h3 id="barcelone">Barcelona</h3><p id="textebarcelone">€65/night&nbsp;average</p></div>
+			</div>
+			<button class="circular ui icon button">
+ 				 <i class="right chevron icon"></i>
+			</button>
+
+		</div>
+	</body>
+</html>
